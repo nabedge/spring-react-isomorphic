@@ -15,3 +15,8 @@ build/
 node_modules/
 src/main/resources/static/output/
 
+/bin/
+/.gradle/
+/.settings/
+/.classpath
+/.project

@@ -5,7 +5,8 @@ function render(template, model) {
     for (var k in model) {
         // Convert Java Iterable and List to real Javascript arrays
         if (model[k] instanceof Java.type("java.lang.Iterable")) {
-            data[k] = Java.from(model[k]);
+            //data[k] = Java.from(model[k]);
+            data[k] = []
         } else {
             data[k] = model[k];
         }
